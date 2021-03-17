@@ -5,10 +5,10 @@ time=$(date +%M)
 min20=20
 min40=40
 
-if [ $time -le $min20 ]
+if [ $time -lt $min20 ]
 then 
 	echo ""
-elif [[ $time -gt $min20 && $time -le $min40 ]]  
+elif [[ $time -ge $min20 && $time -lt $min40 ]]  
 then
 	echo -e "\a"
 else

@@ -1,7 +1,7 @@
 #!/bin/bash
 #save as time.sh
 
-time=55
+time=$(date +%M)
 min20=20
 min40=40
 

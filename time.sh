@@ -1,6 +1,6 @@
 #!/bin/bash
 #save as time.sh
-#returns no chime, one chime, and two chimes with a pause
+#returns no chime, one chime, or two chimes with a pause
 #tests against the current minute of the hour before an action is triggered 
 
 time=$(date +%M)
